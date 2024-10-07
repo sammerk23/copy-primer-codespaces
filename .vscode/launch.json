@@ -8,7 +8,7 @@
         {
             "name": "SWA: Run copy-primer-codespaces",
             "request": "launch",
-            "type": "pwa-chrome",
+            "type": "chrome",
             "url": "http://localhost:4280",
             "preLaunchTask": "swa: start copy-primer-codespaces",
             "webRoot": "${workspaceFolder}/",
