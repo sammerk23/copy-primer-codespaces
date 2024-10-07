@@ -15,8 +15,6 @@ import Education from "./Components/Education";
 
 import "./styles.css";
 
-<Education />;
-
 /**
  * This object represents your information. The project is set so that you
  * only need to update these here, and values are passed a properties to the
@@ -47,6 +45,7 @@ const App = () => {
       <Header />
       <Home name={siteProps.name} title={siteProps.title} />
       <About />
+      <Education />
       <Portfolio />
       <Footer {...siteProps} primaryColor={primaryColor} secondaryColor={secondaryColor} />
     </div>
