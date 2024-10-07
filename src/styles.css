@@ -137,3 +137,19 @@ img.socialIcon {
     transform: translateX(0);
   }
 }
+
+.education-grid {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  justify-items: center;
+  gap: 16px;
+}
+
+.education-cell {
+  background-color: #f0f0f0;
+  padding: 16px;
+  border: 1px solid #ccc;
+  width: 100%;
+  max-width: 300px; /* Limite opcional para a largura das células */
+  text-align: center; /* Centraliza o texto dentro das células */
+}
